@@ -3,6 +3,12 @@ description: Form Validator
 version: 0.0.1
 repository: https://github.com/huanguan1978/frmv
 
+topics:
+  - form
+  - validation
+  - validator
+  - validation-form
+
 environment:
   sdk: ^3.2.1
 
