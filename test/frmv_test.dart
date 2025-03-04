@@ -14,6 +14,6 @@ void main() {
       expect(isPasswordSecure(generatePassword(8)), isTrue);
       expect(isPasswordSecure(generatePassword(8)), isTrue);
       expect(isPasswordSecure(generatePassword(8)), isTrue);
-  });
+    });
   });
 }

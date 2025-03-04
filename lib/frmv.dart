@@ -1,8 +1,3 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
-library frmv;
-
 import 'dart:convert' show htmlEscape, jsonDecode;
 import 'dart:math' show Random;
 
@@ -21,4 +16,3 @@ part 'src/frmv_input.dart';
 part 'src/frmv_validator.dart';
 
 // TODO: Export any libraries intended for clients of this package.
-
