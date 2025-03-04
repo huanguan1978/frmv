@@ -1,0 +1,95 @@
+{
+  "@@locale": "zh_CN",
+  "@@last_modified": "2024-02-02T11:34:06.485110",
+  "intlInputTypeName": "{inputTypeName,select, text{文本输入}password{密码输入}email{电子邮箱输入}url{网址输入}tel{电话号码输入}boolean{布尔输入}integer{整数输入}float{小数输入}float2dp{保留两位小数输入}float4dp{保留四位小数输入}date{日期输入}time{时间输入}datetime{日期时间输入}other{其他输入}}",
+  "@intlInputTypeName": {
+    "description": "多语言输入",
+    "type": "text",
+    "placeholders": {
+      "inputTypeName": {}
+    }
+  },
+  "intlInputTextErrorInvalid": "{intlInputTypeName} 错误信息:无效数据",
+  "@intlInputTextErrorInvalid": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {}
+    }
+  },
+  "intlInputTextErrorEmpty": "{intlInputTypeName} 错误信息:数据为空",
+  "@intlInputTextErrorEmpty": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {}
+    }
+  },
+  "intlInputTextErrorNone": "{intlInputTypeName} 错误信息:数据NULL",
+  "@intlInputTextErrorNone": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {}
+    }
+  },
+  "intlInputTextErrorMaxLength": "{intlInputTypeName} 错误信息:文本限长最长({maxlength})",
+  "@intlInputTextErrorMaxLength": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {},
+      "maxlength": {}
+    }
+  },
+  "intlInputTextErrorMinLength": "{intlInputTypeName} 错误信息:文本限长最短({minlength})",
+  "@intlInputTextErrorMinLength": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {},
+      "minlength": {}
+    }
+  },
+  "intlInputTextErrorMaxNum": "{intlInputTypeName} 错误信息:数字区间最大({maxnum})",
+  "@intlInputTextErrorMaxNum": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {},
+      "maxnum": {}
+    }
+  },
+  "intlInputTextErrorMinNum": "{intlInputTypeName} 错误信息:数字区间最小({minnum})",
+  "@intlInputTextErrorMinNum": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {},
+      "minnum": {}
+    }
+  },
+  "intlInputTextErrorDataList": "{intlInputTypeName} 错误信息:可选数据列表({datalists})",
+  "@intlInputTextErrorDataList": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {},
+      "datalists": {}
+    }
+  },
+ "intlInputTextErrorJsonKey": "{intlInputTypeName} 错误信息:必需存在JsonKey鍵名清单({jsonkeys})",
+  "@intlInputTextErrorJsonKey": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {},
+      "jsonkeys": {}
+    }
+  },
+"intlInputTextErrorPattern": "{intlInputTypeName} 错误信息:正则表达式不匹配",
+  "@intlInputTextErrorPattern": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {}
+    }
+  },
+  "intlInputTextErrorValidation": "{intlInputTypeName} 错误信息:函数校验不通过",
+  "@intlInputTextErrorValidation": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {}
+    }
+  }
+}

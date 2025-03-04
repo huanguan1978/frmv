@@ -1,0 +1,95 @@
+{
+  "@@locale": "en_US",
+  "@@last_modified": "2024-02-02T11:34:06.485110",
+  "intlInputTypeName": "{inputTypeName,select, text{input text}password{input password}email{input email}url{input url}tel{input tel}boolean{input boolean}integer{input integer}float{input float}float2dp{input Two Decimal Places}float4dp{input Four Decimal Places}date{input date}time{input time}datetime{input datetime}other{input other}}",
+  "@intlInputTypeName": {
+    "description": "intltext inputType",
+    "type": "text",
+    "placeholders": {
+      "inputTypeName": {}
+    }
+  },
+  "intlInputTextErrorInvalid": "{intlInputTypeName} err:Invalid",
+  "@intlInputTextErrorInvalid": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {}
+    }
+  },
+  "intlInputTextErrorEmpty": "{intlInputTypeName} err:Empty",
+  "@intlInputTextErrorEmpty": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {}
+    }
+  },
+  "intlInputTextErrorNone": "{intlInputTypeName} err:None",
+  "@intlInputTextErrorNone": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {}
+    }
+  },
+  "intlInputTextErrorMaxLength": "{intlInputTypeName} err:maxlength({maxlength})",
+  "@intlInputTextErrorMaxLength": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {},
+      "maxlength": {}
+    }
+  },
+  "intlInputTextErrorMinLength": "{intlInputTypeName} err:minlength({minlength})",
+  "@intlInputTextErrorMinLength": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {},
+      "minlength": {}
+    }
+  },
+  "intlInputTextErrorMaxNum": "{intlInputTypeName} err:maxnum({maxnum})",
+  "@intlInputTextErrorMaxNum": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {},
+      "maxnum": {}
+    }
+  },
+  "intlInputTextErrorMinNum": "{intlInputTypeName} err:minnum({minnum})",
+  "@intlInputTextErrorMinNum": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {},
+      "minnum": {}
+    }
+  },
+  "intlInputTextErrorDataList": "{intlInputTypeName} err:indatalist({datalists})",
+  "@intlInputTextErrorDataList": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {},
+      "datalists": {}
+    }
+  },
+  "intlInputTextErrorJsonKey": "{intlInputTypeName} err:injsonkey({jsonkeys})",
+  "@intlInputTextErrorJsonKey": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {},
+      "jsonkeys": {}
+    }
+  },
+"intlInputTextErrorPattern": "{intlInputTypeName} err:pattern not match",
+  "@intlInputTextErrorPattern": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {}
+    }
+  },
+  "intlInputTextErrorValidation": "{intlInputTypeName} err:validation failure",
+  "@intlInputTextErrorValidation": {
+    "type": "text",
+    "placeholders": {
+      "intlInputTypeName": {}
+    }
+  }
+}
