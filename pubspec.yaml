@@ -15,9 +15,9 @@ environment:
 # Add regular dependencies here.
 dependencies:
   formz: ^0.7.0
-  intl: any
-  intl_translation: any
-  string_validator: any
+  intl: ^0.20.2
+  intl_translation: ^0.20.1
+  string_validator: ^1.1.0
 
 dev_dependencies:
   lints: ^4.0.0
